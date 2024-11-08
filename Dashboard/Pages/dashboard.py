@@ -11,7 +11,7 @@ st.title("Titanic Data Analysis")
 df = sns.load_dataset("titanic")
 
 #display the dataset on the page
-# st.dataframe(df)
+st.dataframe(df)
 
 st.sidebar.header("Filter Options")
 
